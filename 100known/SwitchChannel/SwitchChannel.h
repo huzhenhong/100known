@@ -5,10 +5,7 @@
 #ifndef INC_100KNOWN_SWITCHCHANNEL_H
 #define INC_100KNOWN_SWITCHCHANNEL_H
 
-#include <iostream>
 #include "opencv2/opencv.hpp"
-#include "opencv2/imgproc.hpp"
-#include "opencv2/core.hpp"
 
 
 cv::Mat SwitchByManual(cv::Mat & src)
@@ -40,7 +37,6 @@ cv::Mat SwitchBySplitAndMerge(const cv::Mat & src)
     std::swap(channels[0], channels[2]);
 
     cv::Mat dst = cv::Mat::zeros(src.size(), src.type());
-
     cv::merge(channels, dst);
 
     return dst; // cost time : 0.000818813

@@ -30,7 +30,7 @@ def time_cost_calc(func):
 
 def cvshow(name, img):
     """
-    opencv显示图片
+
     :param name:
     :param img:
     :return:
