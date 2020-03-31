@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.14)
-project(SwitchChannel)
+project(100known)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(SwitchChannel main.cpp)
+add_executable(06_ReduceColor main.cpp)

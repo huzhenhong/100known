@@ -3,4 +3,4 @@ project(Thresholding)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Thresholding main.cpp)
+add_executable(03_Thresholding main.cpp)

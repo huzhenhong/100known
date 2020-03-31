@@ -3,4 +3,4 @@ project(100known)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ReduceColor main.cpp)
+add_executable(04_OtsuThresholding main.cpp)

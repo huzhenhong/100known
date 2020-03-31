@@ -2,8 +2,8 @@
 // Created by huluwa on 20-3-20.
 //
 
-#ifndef INC_100KNOWN_GRAYSCALE_H
-#define INC_100KNOWN_GRAYSCALE_H
+#ifndef INC_100KNOWN_MAIN_H
+#define INC_100KNOWN_MAIN_H
 
 #include "opencv2/opencv.hpp"
 
@@ -33,4 +33,4 @@ cv::Mat ScaleBycvtColor(cv::Mat & src)
 }
 
 
-#endif //INC_100KNOWN_GRAYSCALE_H
+#endif //INC_100KNOWN_MAIN_H

@@ -125,7 +125,7 @@ def hsv2bgr_by_cvtcolor(src):
     return cv2.cvtColor(src, cv2.COLOR_HSV2BGR)
 
 
-src = cv2.imread("../test_1.jpg", cv2.IMREAD_COLOR)
+src = cv2.imread("../test.jpg", cv2.IMREAD_COLOR)
 assert src.shape
 
 hsv_manual = bgr2hsv_by_manual(src)

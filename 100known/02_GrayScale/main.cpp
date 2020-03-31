@@ -2,7 +2,7 @@
 // Created by huluwa on 20-3-19.
 //
 #include "tool.h"
-#include "GrayScale.h"
+#include "main.h"
 
 
 int main()

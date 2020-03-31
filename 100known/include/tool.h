@@ -23,6 +23,7 @@ T Run(const std::string & funcName, const Func & func, T param)
     return result;
 }
 
+
 void Show(const std::string & name, const cv::Mat & img)
 {
     cv::namedWindow(name, cv::WINDOW_NORMAL);

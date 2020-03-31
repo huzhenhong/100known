@@ -3,4 +3,4 @@ project(SwitchChannel)
 
 set(SwitchHsvAndRgb 14)
 
-add_executable(SwitchHsvAndRgb main.cpp)
+add_executable(05_SwitchHsvAndRgb main.cpp)

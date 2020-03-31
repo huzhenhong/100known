@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.14)
-project(100known)
+project(Thresholding)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(OtsuThresholding main.cpp)
+add_executable(08_MaxPooling main.cpp)
