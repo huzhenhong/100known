@@ -7,7 +7,7 @@
 
 int main()
 {
-    cv::Mat src = cv::imread("../../GrayScale/lena.jpg");
+    cv::Mat src = cv::imread("../../test.jpg");
     if(src.empty())
     {
         std::cout << "Load src img failed." << std::endl;

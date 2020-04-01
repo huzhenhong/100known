@@ -7,7 +7,7 @@
 
 int main()
 {
-    cv::Mat src = cv::imread("../../OtsuThresholding/lena.jpg");
+    cv::Mat src = cv::imread("../../test.jpg");
     if(src.empty())
     {
         std::cout << "Load image failed!" << std::endl;

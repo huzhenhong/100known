@@ -9,7 +9,7 @@
 int main()
 {
     // 默认读取为BGR
-    cv::Mat src = cv::imread("../../SwitchChannel/lena.jpg");
+    cv::Mat src = cv::imread("../../test.jpg");
     if(src.empty())
     {
         std::cout << "Load src img failed." << std::endl;

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.14)
-project(GrayScale)
+project(02_GrayScale)
 
 set(CMAKE_CXX_STANDARD 14)
 

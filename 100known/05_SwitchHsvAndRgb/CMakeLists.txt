@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.14)
-project(SwitchChannel)
+project(05_SwitchHsvAndRgb)
 
 set(SwitchHsvAndRgb 14)
 

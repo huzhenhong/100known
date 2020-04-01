@@ -26,6 +26,10 @@ T Run(const std::string & funcName, const Func & func, T param)
 
 void Show(const std::string & name, const cv::Mat & img)
 {
+    if(img.empty())
+    {
+        return;
+    }
     cv::namedWindow(name, cv::WINDOW_NORMAL);
     cv::imshow(name, img);
 }

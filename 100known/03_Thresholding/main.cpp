@@ -8,7 +8,7 @@
 
 int main()
 {
-    cv::Mat src = cv::imread("../../Thresholding/lena.jpg");
+    cv::Mat src = cv::imread("../../test.jpg");
     if(src.empty())
     {
         std::cout << "load image failed!" << std::endl;
